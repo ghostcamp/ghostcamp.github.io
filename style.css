@@ -1,0 +1,190 @@
+/* Raleway 400, 700
+Cherry Swish
+Playfair Display 400
+
+font-family: 'Raleway', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Cherry Swash', cursive; */
+
+@import url("https://googleapis.com/css?family=Raleway");
+@import url("https://googleapis.com/css?family=Oswald");
+
+html, body, p {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+.centered {
+    font-family: 'Cherry Swash', cursive;
+    font-weight: 400;
+    font-size: 5.5vw;
+    color: #fff;
+    position: absolute;
+    white-space: nowrap;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 7px 7px 5px rgba(68, 68, 68, 0.45);
+}
+
+.subhead h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 2.75em;
+    width: 84%;
+    margin: auto;
+    text-align: left;
+    padding-top: 2em;
+}
+
+.emphasis1 {
+    color: #016937;
+}
+
+.emphasis2 {
+    color: #6B8AA3;
+}
+
+.info div p span {
+    font-weight: 700;
+    font-size: 1.3em;
+    display: block;
+    margin-bottom: -2%;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    float: left;
+    width: 34%;
+    padding: 8%;
+    /* Old setting - width: 30.4%;
+    padding: 9.8%; */
+    font-size: 1.25em;
+    line-height: 1.5;
+}
+
+footer {
+    font-family: 'Raleway', sans-serif;
+    background: #6B8AA3;
+    opacity: 0.9;
+    position: relative;
+    bottom: 0;
+    display: table;
+    width: 100%;
+    height: 130px;
+    filter: alpha(opacity=90) progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+}
+
+footer div h4 {
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Media Queries: -----------------------------------------*/
+
+@media screen and (max-width: 800px) {
+    .subhead h1 {
+        font-size: 1.8em;
+        line-height: 1.48em;
+        padding-top: 1.25em;
+    }
+    .info div p span {
+        font-size: 1.1em;
+        display: block;
+        margin-bottom: -4%;
+    }
+    p {
+        width: 80%;
+        padding: 6% 8% 0% 8%;
+        font-size: 1em;
+        line-height: 1.9;
+    }
+    .padtop {
+        padding-top: 50px;
+    }
+    .padbottom {
+        padding-bottom: 8%;
+    }
+    footer {
+        height: 90px;
+    }
+    footer div h4 {
+        width: 80%;
+        font-size: .85em;
+        padding-top: 35px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .subhead h1 {
+        font-size: 1.35em;
+        line-height: 1.5em;
+        padding-top: 1.25em;
+    }
+    .info div p span {
+        font-size: 1.1em;
+        display: block;
+        margin-bottom: -7%;
+    }
+    p {
+        width: 80%;
+        padding: 6% 8% 0% 8%;
+        font-size: 1em;
+        line-height: 1.9;
+    }
+    .padtop {
+        padding-top: 50px;
+    }
+    .padbottom {
+        padding-bottom: 8%;
+    }
+    footer {
+        height: 90px;
+    }
+    footer div h4 {
+        width: 80%;
+        font-size: .85em;
+        padding-top: 35px;
+    }
+}
+
+
+/*
+break points:
+899 and under - h1 smaller to 2em,
+699 and under - stack paragraphs
+ */
+
+ /* Portrait */
+ /* @media only screen
+   and (min-device-width: 414px)
+   and (max-device-width: 736px)
+   and (-webkit-min-device-pixel-ratio: 3)
+   and (orientation: portrait) {
+
+ } */
+
+ /* Landscape */
+ /* @media only screen
+   and (min-device-width: 414px)
+   and (max-device-width: 736px)
+   and (-webkit-min-device-pixel-ratio: 3)
+   and (orientation: landscape) {
+
+ } */
