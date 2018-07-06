@@ -122,11 +122,18 @@ footer div h4 {
     }
 }
 
+@media screen and (max-width: 630px) {
+    .subhead h1 {
+        font-size: 1.6em;
+        line-height: 1.5em;
+        padding-top: 1.25em;
+    }
+}
 
 @media screen and (max-width: 480px) {
     .subhead h1 {
         font-size: 1.35em;
-        line-height: 1.5em;
+        line-height: 1.6em;
         padding-top: 1.25em;
     }
     .info div p span {
@@ -138,7 +145,7 @@ footer div h4 {
         width: 80%;
         padding: 6% 8% 0% 8%;
         font-size: 1em;
-        line-height: 1.9;
+        line-height: 1.8;
     }
     .padtop {
         padding-top: 50px;
@@ -159,7 +166,7 @@ footer div h4 {
 @media screen and (max-width: 414px) {
     .subhead h1 {
         font-size: 1.4em;
-        line-height: 1.5em;
+        line-height: 1.55em;
         padding-top: 1.25em;
     }
     .info div p span {
@@ -169,3 +176,10 @@ footer div h4 {
 
 /* iPhone 8 */
 @media screen and (max-width: 375px) {
+
+
+    /* <picture>
+        <source srcset="/media/examples/frog.png"
+                media="(min-width: 10px)">
+        <img src="/media/examples/fish.png">
+    </picture> */
