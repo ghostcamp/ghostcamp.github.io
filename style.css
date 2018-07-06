@@ -1,13 +1,6 @@
 /* Raleway 400, 700
-Cherry Swish
-Playfair Display 400
-
-font-family: 'Raleway', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Cherry Swash', cursive; */
-
-@import url("https://googleapis.com/css?family=Raleway");
-@import url("https://googleapis.com/css?family=Oswald");
+Cherry Swish 400
+Playfair Display 400*/
 
 html, body, p {
     margin: 0;
@@ -105,7 +98,6 @@ footer div h4 {
     }
     .info div p span {
         font-size: 1.1em;
-        display: block;
         margin-bottom: -4%;
     }
     p {
@@ -125,7 +117,7 @@ footer div h4 {
     }
     footer div h4 {
         width: 80%;
-        font-size: .85em;
+        font-size: .75em;
         padding-top: 35px;
     }
 }
@@ -159,32 +151,21 @@ footer div h4 {
     }
     footer div h4 {
         width: 80%;
-        font-size: .85em;
-        padding-top: 35px;
+        font-size: .75em;
     }
 }
 
+/* iPhone 8 plus */
+@media screen and (max-width: 414px) {
+    .subhead h1 {
+        font-size: 1.4em;
+        line-height: 1.5em;
+        padding-top: 1.25em;
+    }
+    .info div p span {
+        font-size: 1.1em;
+        margin-bottom: -7%;
+}
 
-/*
-break points:
-899 and under - h1 smaller to 2em,
-699 and under - stack paragraphs
- */
-
- /* Portrait */
- /* @media only screen
-   and (min-device-width: 414px)
-   and (max-device-width: 736px)
-   and (-webkit-min-device-pixel-ratio: 3)
-   and (orientation: portrait) {
-
- } */
-
- /* Landscape */
- /* @media only screen
-   and (min-device-width: 414px)
-   and (max-device-width: 736px)
-   and (-webkit-min-device-pixel-ratio: 3)
-   and (orientation: landscape) {
-
- } */
+/* iPhone 8 */
+@media screen and (max-width: 375px) {
