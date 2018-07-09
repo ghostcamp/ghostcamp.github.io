@@ -39,7 +39,7 @@ img {
     width: 84%;
     margin: auto;
     text-align: left;
-    padding-top: 2em;
+    padding-top: 7%;
 }
 
 .emphasis1 {
@@ -63,10 +63,8 @@ p {
     float: left;
     width: 34%;
     padding: 8%;
-    /* Old setting - width: 30.4%;
-    padding: 9.8%; */
     font-size: 1.25em;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 footer {
@@ -77,24 +75,24 @@ footer {
     bottom: 0;
     display: table;
     width: 100%;
-    height: 130px;
     filter: alpha(opacity=90) progid:DXImageTransform.Microsoft.Alpha(opacity=90);
 }
 
 footer div h4 {
     color: #fff;
     margin: auto;
+    line-height: 1.5em;
     text-align: center;
-    padding-top: 50px;
+    padding: 3.5%;
 }
 
 /* Media Queries: -----------------------------------------*/
+
 
 @media screen and (max-width: 800px) {
     .subhead h1 {
         font-size: 1.8em;
         line-height: 1.48em;
-        padding-top: 1.25em;
     }
     .info div p span {
         font-size: 1.1em;
@@ -105,9 +103,6 @@ footer div h4 {
         padding: 6% 8% 0% 8%;
         font-size: 1em;
         line-height: 1.9;
-    }
-    .padtop {
-        padding-top: 50px;
     }
     .padbottom {
         padding-bottom: 8%;
@@ -126,7 +121,6 @@ footer div h4 {
     .subhead h1 {
         font-size: 1.6em;
         line-height: 1.5em;
-        padding-top: 1.25em;
     }
 }
 
@@ -134,11 +128,9 @@ footer div h4 {
     .subhead h1 {
         font-size: 1.35em;
         line-height: 1.6em;
-        padding-top: 1.25em;
     }
     .info div p span {
         font-size: 1.1em;
-        display: block;
         margin-bottom: -7%;
     }
     p {
@@ -146,12 +138,6 @@ footer div h4 {
         padding: 6% 8% 0% 8%;
         font-size: 1em;
         line-height: 1.8;
-    }
-    .padtop {
-        padding-top: 50px;
-    }
-    .padbottom {
-        padding-bottom: 8%;
     }
     footer {
         height: 90px;
@@ -167,19 +153,14 @@ footer div h4 {
     .subhead h1 {
         font-size: 1.4em;
         line-height: 1.55em;
-        padding-top: 1.25em;
     }
     .info div p span {
         font-size: 1.1em;
         margin-bottom: -7%;
-}
+    }
 
-/* iPhone 8 */
-@media screen and (max-width: 375px) {
-
-
-    /* <picture>
-        <source srcset="/media/examples/frog.png"
-                media="(min-width: 10px)">
-        <img src="/media/examples/fish.png">
-    </picture> */
+    /* iPhone 8 */
+    @media screen and (max-width: 375px) {
+        .subhead h1 {
+            font-size: 1.25em;
+        }
