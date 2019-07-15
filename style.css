@@ -88,6 +88,10 @@ footer div h4 {
     padding: 20px 0;
 }
 
+footer a {
+    color: inherit;
+}
+
 /* Media Queries: -----------------------------------------*/
 
 
