@@ -2,7 +2,9 @@
 Cherry Swish 400
 Playfair Display 400*/
 
-html, body, p {
+html,
+body,
+p {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -83,7 +85,7 @@ footer div h4 {
     margin: auto;
     line-height: 1.5em;
     text-align: center;
-    padding: 3.5%;
+    padding: 20px 0;
 }
 
 /* Media Queries: -----------------------------------------*/
@@ -94,26 +96,26 @@ footer div h4 {
         font-size: 1.8em;
         line-height: 1.48em;
     }
+
     .info div p span {
         font-size: 1.1em;
         margin-bottom: -4%;
     }
+
     p {
         width: 80%;
         padding: 6% 8% 0% 8%;
         font-size: 1em;
         line-height: 1.9;
     }
+
     .padbottom {
         padding-bottom: 8%;
     }
-    footer {
-        height: 90px;
-    }
+
     footer div h4 {
         width: 80%;
         font-size: .75em;
-        padding-top: 35px;
     }
 }
 
@@ -129,19 +131,19 @@ footer div h4 {
         font-size: 1.35em;
         line-height: 1.6em;
     }
+
     .info div p span {
         font-size: 1.1em;
         margin-bottom: -7%;
     }
+
     p {
         width: 80%;
         padding: 6% 8% 0% 8%;
         font-size: 1em;
         line-height: 1.8;
     }
-    footer {
-        height: 90px;
-    }
+
     footer div h4 {
         width: 80%;
         font-size: .75em;
@@ -154,6 +156,7 @@ footer div h4 {
         font-size: 1.4em;
         line-height: 1.55em;
     }
+
     .info div p span {
         font-size: 1.1em;
         margin-bottom: -7%;
@@ -164,3 +167,5 @@ footer div h4 {
         .subhead h1 {
             font-size: 1.25em;
         }
+    }
+}
